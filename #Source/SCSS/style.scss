@@ -1,0 +1,48 @@
+@import 'null.scss';
+
+
+%ua {
+	color: #fff;
+	font-size: 35px;
+
+}
+$ua: 40px;
+
+body {
+  background-image: url(../img/Кайфовый.png);
+  background-position:fixed; }
+
+.menubord {
+	border: 5px solid #c308fc;
+	padding: 30px 0px;
+	.a1 {
+		padding: $ua 30px $ua 700px;		
+		@extend %ua;
+
+
+	}
+	.a2 {
+		@extend %ua;
+		padding: $ua 30px $ua 30px;
+	}
+	.a3 {
+		@extend %ua;
+		padding: $ua 5px $ua 30px;
+	}
+	border-right: hidden;
+	border-left: hidden;
+	background-color: black;
+	opacity: 0.7;
+	border-top:hidden;
+
+}
+
+.t1 {
+	color: #fff;
+	font-size: 30px;
+	margin: 2px 300px 2px 400px;
+}
+.kekes {
+	border: 3px solid #fff;
+	margin: 50px 0px 0px 600px;
+}
